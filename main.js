@@ -9,5 +9,5 @@
         // Update the current UTC time element
         const utcTimeElement = document.querySelector('[data-testid="currentUTCTime"]');
         utcTimeElement.textContent = now.getTime();
-
+        
     });
